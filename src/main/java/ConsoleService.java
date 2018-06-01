@@ -22,7 +22,7 @@ public class ConsoleService {
 
         while (true) {
             System.out.println(options);
-            String input = reader.readLine();
+            String input = reader.readLine(); // Read the No of command to execute
             switch (input) {
                 case "1":
                     System.out.println("Enter the name of the department: ");
@@ -50,6 +50,7 @@ public class ConsoleService {
                     System.out.println("\n" + UniversityUtils.doGlobalSearch(searchQuery) + "\n");
                     break;
                 case "6":
+                    reader.close();
                     return;
             }
         }

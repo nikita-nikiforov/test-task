@@ -11,9 +11,4 @@ public class HibernateUtil {
         }
         return sessionFactory;
     }
-
-    public static void closeSession(Session session) {
-        session.getTransaction().commit();
-        session.close();
-    }
 }

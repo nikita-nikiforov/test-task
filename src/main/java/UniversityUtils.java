@@ -44,7 +44,7 @@ public class UniversityUtils {
         Session session = sessionFactory.openSession();
         session.beginTransaction();
 
-        // Look for a department with given name
+        // Look for a department with the given name
         List<Department> department = session.createQuery("from Department where name = :name")
                     .setParameter("name", departmentName).getResultList();
 
@@ -53,7 +53,7 @@ public class UniversityUtils {
             // Get all degrees
             List<Degree> degreeList = session.createQuery("from Degree").getResultList();
 
-            // Query to get lectors from given department
+            // Query to get department lectors by degree
             Query<Integer> query = session.createNativeQuery("SELECT COUNT(*) FROM Lector L " +
                     "INNER JOIN lector_department LD ON LD.lector_id = L.id " +
                     "INNER JOIN Department D ON D.id = LD.department_id WHERE D.name = :departmentName " +
@@ -153,7 +153,7 @@ public class UniversityUtils {
         Session session = sessionFactory.openSession();
         session.beginTransaction();
 
-        // Query to find results
+        // Query to find matches
         Query<Lector> query = session.createQuery("from Lector " +
                 "where name like :keyword or surname like :keyword");
         query.setParameter("keyword", "%" + keyword + "%");
