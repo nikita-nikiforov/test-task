@@ -12,7 +12,8 @@ public class ConsoleService {
             "\n ---4. Show count of employees for department" +
             "\n ---5. Global search by keyword." +
             "\n ---6. Exit" +
-            "\n \n Please, input the No of option: ";
+            "\n \n Please, input the No of an option: ";
+    private static String breakline = "-----------------------------------------------------\n";
 
 
     // Method to start console interface
@@ -21,7 +22,7 @@ public class ConsoleService {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         while (true) {
-            System.out.println(options);
+            System.out.println(breakline + options);
             String input = reader.readLine(); // Read the No of command to execute
             switch (input) {
                 case "1":

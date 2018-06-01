@@ -12,6 +12,7 @@
         <property name="hibernate.format_sql">false</property>
         <property name="hibernate.hbm2ddl.auto">create</property>
         <property name="hibernate.dialect.storage_engine">innodb</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL57Dialect</property>
 
         <mapping class="entity.Degree"></mapping>
         <mapping class="entity.Department"></mapping>
