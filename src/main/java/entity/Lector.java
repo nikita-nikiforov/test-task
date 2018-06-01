@@ -1,6 +1,7 @@
 package entity;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 public class Lector {
@@ -15,9 +16,11 @@ public class Lector {
     @JoinColumn(name = "degree_id")
     private Degree degree;
 
-    @ManyToOne
-    @JoinColumn(name = "department_id")
-    private Department department;
+    @ManyToMany
+    @JoinTable(name = "lector_department",
+            joinColumns = @JoinColumn(name = "lector_id", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "department_id", referencedColumnName = "id"))
+    private Set<Department> departments;
 
     public Lector() {
     }
@@ -62,12 +65,12 @@ public class Lector {
         this.degree = degree;
     }
 
-    public Department getDepartment() {
-        return department;
+    public Set<Department> getDepartments() {
+        return departments;
     }
 
-    public void setDepartment(Department department) {
-        this.department = department;
+    public void setDepartments(Set<Department> departments) {
+        this.departments = departments;
     }
 
     @Override
@@ -78,7 +81,6 @@ public class Lector {
                 ", surname='" + surname + '\'' +
                 ", salary=" + salary +
                 ", degree=" + degree +
-                ", department=" + department +
                 '}';
     }
 }

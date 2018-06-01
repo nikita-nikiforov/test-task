@@ -2,6 +2,7 @@ package entity;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 public class Department {
@@ -13,8 +14,8 @@ public class Department {
     @OneToOne
     private Lector head;
 
-    @OneToMany(mappedBy = "department")
-    private List<Lector> lectors;
+    @ManyToMany(mappedBy = "departments")
+    private Set<Lector> lectors;
 
     public Department() {
     }
@@ -43,11 +44,11 @@ public class Department {
         this.head = head;
     }
 
-    public List<Lector> getLectors() {
+    public Set<Lector> getLectors() {
         return lectors;
     }
 
-    public void setLectors(List<Lector> lectors) {
+    public void setLectors(Set<Lector> lectors) {
         this.lectors = lectors;
     }
 }
