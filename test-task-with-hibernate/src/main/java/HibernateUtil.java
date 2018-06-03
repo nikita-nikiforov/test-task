@@ -1,7 +1,7 @@
-import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
+// Class to quickly get SessionFactory
 public class HibernateUtil {
     private static SessionFactory sessionFactory;
 

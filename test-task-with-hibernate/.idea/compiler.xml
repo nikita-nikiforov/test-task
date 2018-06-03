@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="test-task-with-hibernate" target="1.7" />
+      <module name="test-task-with-hibernate" target="1.8" />
       <module name="testtask" target="1.7" />
     </bytecodeTargetLevel>
   </component>
