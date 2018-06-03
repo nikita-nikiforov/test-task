@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Set;
 
 @Entity
+@Table(name = "Department")
 public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

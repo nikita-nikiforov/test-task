@@ -3,6 +3,7 @@ package entity;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "Degree")
 public class Degree {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

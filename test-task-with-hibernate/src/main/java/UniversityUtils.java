@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 import java.util.List;
 
-// Class with methods which provide all command executions
+// Class with methods to provide all command executions
 public class UniversityUtils {
 
     public static String getDepartmentHead(String departmentName) {
