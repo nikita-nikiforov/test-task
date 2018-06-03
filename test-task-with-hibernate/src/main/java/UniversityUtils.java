@@ -26,7 +26,7 @@ public class UniversityUtils {
             Department department = resultList.get(0);
             Lector head = department.getHead();
             result.append("Head of ").append(departmentName).append(" department is ")
-                    .append(head.getName() + " " + head.getSurname());
+                    .append(head.getName()).append(" ").append(head.getSurname());
         } else {
             result.append("Can't find a department with the given name.");
         }
@@ -57,13 +57,13 @@ public class UniversityUtils {
             Query<Integer> query = session.createNativeQuery("SELECT COUNT(*) FROM Lector L " +
                     "INNER JOIN lector_department LD ON LD.lector_id = L.id " +
                     "INNER JOIN Department D ON D.id = LD.department_id WHERE D.name = :departmentName " +
-                    "AND L.degree_id = (SELECT id FROM Degree WHERE name = :degree_name)");
+                    "AND L.degree_id = :degree_id");
             query.setParameter("departmentName", departmentName);
 
             // Iterate over all degrees and look for lectors with every degree. Every iteration,
             // the "degree_name" parameter in the query above is changed.
             for (Degree degree : degreeList) {
-                query.setParameter("degree_name", degree.getName()); // change degree_name
+                query.setParameter("degree_id", degree.getId()); // change degree_id
                 // execute query and append to result String
                 result.append(degree.getName()).append(" — ").append(query.getSingleResult()).append("\n");
             }

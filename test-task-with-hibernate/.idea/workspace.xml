@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed220236-0d9f-4bd0-9482-655ad3b5959f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/testtask.iml" afterPath="$PROJECT_DIR$/test-task-with-hibernate.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entity/Degree.class" afterPath="$PROJECT_DIR$/target/classes/entity/Degree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entity/Department.class" afterPath="$PROJECT_DIR$/target/classes/entity/Department.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entity/Lector.class" afterPath="$PROJECT_DIR$/target/classes/entity/Lector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ConsoleService.java" afterPath="$PROJECT_DIR$/src/main/java/ConsoleService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UniversityUtils.java" afterPath="$PROJECT_DIR$/src/main/java/UniversityUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entity/Degree.java" afterPath="$PROJECT_DIR$/src/main/java/entity/Degree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entity/Department.java" afterPath="$PROJECT_DIR$/src/main/java/entity/Department.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entity/Lector.java" afterPath="$PROJECT_DIR$/src/main/java/entity/Lector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,23 +29,59 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ConsoleService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ConsoleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="198">
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HibernateUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Degree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/Degree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/Department.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HibernateUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/HibernateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
               <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UniversityUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UniversityUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <folding>
+                <marker date="1528039758373" expanded="true" signature="2406:2674" ph="SELECT COUNT... Lector" />
+                <marker date="1528039758373" expanded="true" signature="2406:2676" ph="SELECT COUNT... Lector" />
+                <marker date="1528039758373" expanded="true" signature="2666:2674" ph="SELECT id FR... Degree" />
+                <marker date="1528039758373" expanded="true" signature="4268:4487" ph="SELECT avg(s... Lector" />
+                <marker date="1528039758373" expanded="true" signature="5797:6013" ph="SELECT COUNT... Lector" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,7 +104,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -94,11 +123,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/import.sql" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/HibernateUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ConsoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Degree.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Lector.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ConsoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/UniversityUtils.java" />
       </list>
     </option>
@@ -122,7 +151,9 @@
     <option name="width" value="839" />
     <option name="height" value="667" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -163,13 +194,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="test-task-with-hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-task-with-hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,11 +357,12 @@
       <workItem from="1528019287879" duration="751000" />
       <workItem from="1528021327394" duration="73000" />
       <workItem from="1528021560381" duration="44000" />
+      <workItem from="1528039535231" duration="223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42787000" />
+    <option name="totallyTimeSpent" value="43010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -340,7 +380,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1561753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15856573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -385,16 +425,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UniversityUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1528021603856" expanded="true" signature="2394:2703" ph="SELECT COUNT... Lector" />
-            <marker date="1528021603856" expanded="true" signature="2655:2702" ph="SELECT id FR... Degree" />
-            <marker date="1528021603856" expanded="true" signature="4301:4520" ph="SELECT avg(s... Lector" />
-            <marker date="1528021603856" expanded="true" signature="5830:6046" ph="SELECT COUNT... Lector" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConsoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Degree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -403,6 +462,20 @@
         <state relative-caret-position="36">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UniversityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <marker date="1528039758373" expanded="true" signature="2406:2674" ph="SELECT COUNT... Lector" />
+            <marker date="1528039758373" expanded="true" signature="2406:2676" ph="SELECT COUNT... Lector" />
+            <marker date="1528039758373" expanded="true" signature="2666:2674" ph="SELECT id FR... Degree" />
+            <marker date="1528039758373" expanded="true" signature="4268:4487" ph="SELECT avg(s... Lector" />
+            <marker date="1528039758373" expanded="true" signature="5797:6013" ph="SELECT COUNT... Lector" />
+          </folding>
         </state>
       </provider>
     </entry>

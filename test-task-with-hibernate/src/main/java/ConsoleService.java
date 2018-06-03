@@ -5,11 +5,11 @@ import java.io.InputStreamReader;
 // Class with methods to provide console interface
 public class ConsoleService {
 
-    private static String welcomeMessage = "Welcome to the University Service. Please, choose the option:\n";
+    private static String welcomeMessage = "Welcome to the University Service. Please, choose an option:\n";
     private static String options = " ---1. Who is the head of department?" +
-            "\n ---2. Show department's statistic." +
+            "\n ---2. Show department statistic." +
             "\n ---3. Show the average salary for department." +
-            "\n ---4. Show count of employees for department" +
+            "\n ---4. Show employees amount for department." +
             "\n ---5. Global search by keyword." +
             "\n ---6. Exit" +
             "\n \n Please, input the No of an option: ";
